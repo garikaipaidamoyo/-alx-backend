@@ -1,11 +1,11 @@
+# 1-main.py
+
 #!/usr/bin/env python3
 """
 Main file
 """
 
 from 1-simple_pagination import Server  # Correctly import the Server class
-
-Server = __import__('1-simple_pagination').Server
 
 server = Server()
 
@@ -24,7 +24,7 @@ try:
 except AssertionError:
     print("AssertionError raised when page and/or page_size are not ints")
 
-
 print(server.get_page(1, 3))
 print(server.get_page(3, 2))
 print(server.get_page(3000, 100))
+

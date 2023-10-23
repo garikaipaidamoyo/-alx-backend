@@ -1,3 +1,5 @@
+# 1-simple_pagination.py
+
 #!/usr/bin/env python3
 """
 Simple pagination
@@ -5,7 +7,6 @@ Simple pagination
 
 import csv
 from typing import List
-from 0-simple_helper_function import index_range  # Import the index_range function
 
 
 class Server:
