@@ -64,4 +64,3 @@ class Server:
             return dataset[index[0]:index[1]]
         except IndexError:
             return []
-        
